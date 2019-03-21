@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body onkeypress="myFunction(event)">
+<audio src="sounds/1.mp3" id="sound-a"></audio>
+<audio src="sounds/2.mp3" id="sound-s"></audio>
+<audio src="sounds/3.mp3" id="sound-d"></audio>
+<audio src="sounds/4.mp3" id="sound-f"></audio>
+<audio src="sounds/5.mp3" id="sound-g"></audio>
+<audio src="sounds/6.mp3" id="sound-h"></audio>
+<audio src="sounds/7.mp3" id="sound-j"></audio>
+<audio src="sounds/8.mp3" id="sound-k"></audio>
+
+<div class="div-piano">
+
+    <div class="btn-piano" id="piano-a" onclick="playAudio(event, 'a')">
+        a
+    </div>
+
+    <div class="btn-piano" id="piano-s" onclick="playAudio(event, 's')">
+        s
+    </div>
+
+    <div class="btn-piano" id="piano-d" onclick="playAudio(event, 'd')">
+        d
+    </div>
+
+    <div class="btn-piano" id="piano-f" onclick="playAudio(event, 'f')">
+        f
+    </div>
+
+    <div class="btn-piano" id="piano-g" onclick="playAudio(event, 'g')">
+        g
+    </div>
+
+    <div class="btn-piano" id="piano-h" onclick="playAudio(event, 'h')">
+        h
+    </div>
+
+    <div class="btn-piano" id="piano-j" onclick="playAudio(event, 'j')">
+        j
+    </div>
+
+    <div class="btn-piano" id="piano-k" onclick="playAudio(event, 'k')">
+        k
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
